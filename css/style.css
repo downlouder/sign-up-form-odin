@@ -136,8 +136,12 @@ input.error {
 .password-label {
   position: relative;
 }
-input.error ~ p {
+input ~ p {
   position: absolute;
+  visibility: hidden;
+}
+input.error ~ p {
+  visibility: visible;
   bottom: -0.7rem;
   color: rgb(217, 49, 49);
   text-transform: none;
