@@ -10,7 +10,20 @@
   </head>
   <body>
     <main>
-      <div class="background-block"></div>
+      <div class="background-block">
+        <img src="./imgs/background.jpg" alt="Background Image" />
+        <div class="logo-block">
+          <img src="./imgs/odin-lined.png" alt="Logo">
+          <h1>ODIN</h1>
+        </div>
+        <p class="photo-author">
+          Photo by
+          <a target="_blank" href="https://unsplash.com/@haliewestphoto"
+            >Halie West</a
+          >
+          on <a href="https://unsplash.com/">Unsplash</a>
+        </p>
+      </div>
       <div class="form-block">
         <div class="subscription">
           <p>
@@ -25,31 +38,31 @@
           <div>
             <label>
               First Name
-              <input type="text" />
+              <input type="text" required />
             </label>
             <label for="">
               Last Name
-              <input type="text" />
+              <input type="text" required />
             </label>
           </div>
           <div>
             <label for="">
               Email
-              <input type="email" />
+              <input type="email" required />
             </label>
             <label for="">
               Phone Number
-              <input type="tel" />
+              <input type="tel" required />
             </label>
           </div>
           <div>
             <label for="">
               Password
-              <input type="password" />
+              <input type="password" required />
             </label>
             <label for="">
               Confirm Password
-              <input type="password" />
+              <input type="password" required />
             </label>
           </div>
         </div>
