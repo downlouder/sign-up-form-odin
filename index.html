@@ -40,34 +40,35 @@
               First Name
               <input type="text" required />
             </label>
-            <label for="">
+            <label>
               Last Name
               <input type="text" required />
             </label>
           </div>
           <div>
-            <label for="">
+            <label>
               Email
               <input type="email" required />
             </label>
-            <label for="">
+            <label>
               Phone Number
               <input type="tel" required />
             </label>
           </div>
           <div>
-            <label for="">
+            <label class="password-label">
               Password
-              <input type="password" required />
+              <input class="error" type="password" required />
+              <p>* Passwords do not match</p>
             </label>
-            <label for="">
+            <label>
               Confirm Password
-              <input type="password" required />
+              <input class="error" type="password" required />
             </label>
           </div>
         </div>
-        <div class="buttons">
-          <button>Create Account</button>
+        <div class="buttons-part">
+          <button class="sign-up-btn">Create Account</button>
           <p>Already have an account? <span>Log in</span></p>
         </div>
       </div>
